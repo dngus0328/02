@@ -22,11 +22,19 @@ while y < 510:
     delay(0.01)
 
 x = 800
-while 0 < x:
+while 10 < x:
     clear_canvas_now()
     grass.draw_now(400, 30)
     character.draw_now(x, 600)
     x -= 2
+    delay(0.01)
+
+y = 600
+while 90 < y:
+    clear_canvas_now()
+    grass.draw_now(400, 30)
+    character.draw_now(0, y)
+    y -= 2
     delay(0.01)
 
 
